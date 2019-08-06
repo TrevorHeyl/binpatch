@@ -59,14 +59,14 @@ Scenario 5 -  Patch in a Text string after a binary marker in the binary
 
 All command line options:
 -------------------------
-Files:
-  -i input file
-  -o output file
-Only one of the next 3
-  -a address to start patch in HEX 0x0 to 0xFFFFFFFF (0x can be ommitted)
-  -t text pattern to find after which to patch, max 48 characters 
-  -b binary(hex ASCII ) pattern to find after which to patch, max 8 bytes eg,-b0x1234
-Either one or the other of the next 2,not both
-  -B patch value in binary (hex ASCII), maximum 8 bytes eg: -B0x1234
-  -T patch value in test, eg -TVERSION1.0, max 48 characters
+    Files:
+        -i input file
+        -o output file
+    Only one of the next 3
+        -a address to start patch in HEX 0x0 to 0xFFFFFFFF (0x can be ommitted)
+        -t text pattern to find after which to patch, max 48 characters 
+        -b binary(hex ASCII ) pattern to find after which to patch, max 8 bytes eg,-b0x1234
+    Either one or the other of the next 2,not both
+        -B patch value in binary (hex ASCII), maximum 8 bytes eg: -B0x1234
+        -T patch value in test, eg -TVERSION1.0, max 48 characters
 
