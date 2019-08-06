@@ -4,7 +4,7 @@ Binary patch utility V 0.98, by Trevor Heyl, is a command line utility written i
 
 This project was developed with CodeBlocks V 17.2 under Windows 8 but should compile under and C++11 and GNU compiler.
 
-This utility is useful for post build operations to patchin serial numbers, configuration items and other binary data that is unique to a build.
+This utility is useful for post build operations to patchin serial numbers, configuration items and other binary data that is unique to a build. for those who dont want to build the source, there is a windows executable under the X64bin folder.
 This utility has various patch modes, some examples are listed below to illustrate:
 
 Scenario 1 -  Patch in a binary number at an address offset
