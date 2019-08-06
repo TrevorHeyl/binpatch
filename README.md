@@ -69,4 +69,6 @@ All command line options:
     Either one or the other of the next 2,not both
         -B patch value in binary (hex ASCII), maximum 8 bytes eg: -B0x1234
         -T patch value in test, eg -TVERSION1.0, max 48 characters
+     Other:
+        -z Patch address is at beginning of text/binary search pattern as opposed to immediatelt after the pattern (defualt) 
 
